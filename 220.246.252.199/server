@@ -1,0 +1,1 @@
+["REG ADD \"HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run\" /v test1 /t REG_SZ /d \"E:\\WISLab\\rbpc2-main\\rbpc2-mainclient.exe\""]
