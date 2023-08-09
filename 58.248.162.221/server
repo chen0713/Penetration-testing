@@ -1,1 +1,0 @@
-["sc create test binpath= C:\\client.exe&&sc config test start= auto"]
