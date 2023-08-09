@@ -1,1 +1,0 @@
-["powershell -Command \"sc.exe create test binpath='C:\\Windows\\system32\\client.exe'; sc.exe config test start=auto\""]
