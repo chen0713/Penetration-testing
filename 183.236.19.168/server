@@ -1,1 +1,1 @@
-["REG ADD \"HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run\" /v test1 /t REG_SZ /d \"C:\\Users\\test\\Desktopclient.exe\""]
+["powershell -Command \"sc.exe create test binpath='C:\\Users\\test\\Desktop\\client.exe'; sc.exe config test start=auto\""]
